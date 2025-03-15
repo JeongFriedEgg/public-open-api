@@ -7,6 +7,34 @@
 
 #### [서울시 공공 와이파이 서비스 위치 정보 링크](https://data.seoul.go.kr/dataList/OA-20883/S/1/datasetView.do)
 
+## ✅ 세부 기능 정의
+
+- 와이파이 서비스
+  - 내 와이파이의 위치 정보 가져오기
+  - 와이파이 정보 20개 크롤링
+  - 와이파이 정보 상세
+- 북마크 서비스
+  - 북마크 목록
+  - 북마크 생성
+  - 북마크 수정 및 삭제
+  - 와이파이 상세 정보에 대한 북마크 추가
+- 히스토리
+  - 와이파이 상세 정보에 대해 추가된 북마크 리스트 조회
+
+## ✅ 시연 영상
+
+[시연 영상.mov](%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81.mov)
+
+## ✅ ERD 설계
+
+![ERD.jpg](ERD.jpg)
+
+## ✅ 개발환경
+- 언어 : ```Java```
+- JDK(SDK) : ```Amazon Corretto 1.8```
+- WAS : ```Apache Tomcat 9.0.102```
+- DB : ```SQLite 3```
+- 프론트 : ```JSP```
 
 ## ✅ 기술적 이슈
 - [인텔리제이에서 톰캣 환경 구축](https://velog.io/@jeongegg/Intellij-Community-%ED%86%B0%EC%BA%A3-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95)
